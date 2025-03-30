@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Analytics Masterclass Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="headline">Data Analytics Masterclass</h1>
+        <table width="100%" border="0">
+            <tr>
+                <td width="50%">
+                    <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg" alt="Data analysis visualization" width="500" height="300"> 
+                </td>
+                <td width="50%" id="topics">
+                    <h2>Topics Covered</h2>
+                    <ol type="i">
+                        <li>What is Data Analysis</li>
+                        <li>Types of Data</li>
+                        <li>The Data Analysis Process</li>
+                        <li>Basic Data Analysis Techniques</li>
+                        <li>Tools for Data Analysis</li>
+                        <li>Advanced Concepts</li>
+                    </ol> 
+                </td>
+                
+            </tr>
+
+        </table>
+
+       <!-- Table entailing previous top performers -->
+        <h2 class="headline">Top Performers</h2>
+        <table width="100%" border="1">
+            <tr id="columns">
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr class="rows">
+                <td>Felix Kosgei</td>
+                <td>Bomet</td>
+                <td>0787654321</td>
+                <td>kosgei@gmail.com</td>
+            </tr>
+            <tr class="rows">
+                <td>Jane Mwangi</td>
+                <td>Nairobi</td>
+                <td>0712345678</td>
+                <td>jane.mwangi@email.com</td>
+            </tr>
+            <tr class="rows">
+                <td>Kevin Omondi</td>
+                <td>Kisumu</td>
+                <td>0798765432</td>
+                <td>kevin.omondi@email.com</td>
+            </tr>
+            <tr class="rows">
+                <td>Susan Wanjiru</td>
+                <td>Nyeri</td>
+                <td>0723456789</td>
+                <td>susan.wanjiru@email.com</td>
+            </tr>
+            <tr class="rows">
+                <td>Mark Kiprop</td>
+                <td>Eldoret</td>
+                <td>0776543210</td>
+                <td>mark.kiprop@email.com</td>
+            </tr>
+            
+        </table>
+
+        <h1 class="headline">Registration Form</h1>
+        <form action="#" method="POST" id="registration-form">
+
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+    
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+    
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+            <br><br>
+    
+            <!-- Dropdown Field -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">-- Select --</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select>
+            <br><br>
+    
+            <!-- Gender Radio Buttons -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+    
+            <!-- Interests Checkboxes -->
+            <label>Career Path:</label><br>
+            <input type="checkbox" id="data-science" name="career-path" value="data-science">
+            <label for="data-science">Data Science</label>
+            <input type="checkbox" id="data-engineer" name="career-path" value="data-engineer">
+            <label for="data-engineer">Data Engineer</label>
+            <br><br>
+    
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+    
+        </form>
+
+    </body>
+
+</html>
