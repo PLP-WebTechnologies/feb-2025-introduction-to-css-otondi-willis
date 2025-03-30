@@ -1,0 +1,44 @@
+.headline{
+    font-size: 30px;
+    color: maroon;
+    text-align: center;
+    font-family: Calibri, 'Trebuchet MS';
+}
+body{
+    background-color: #fcfcf4;
+}
+#topics{
+    background-color: maroon;
+    color: white;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    width: 30%;
+    
+}
+img{
+    width: 100%;
+    border: 5px solid maroon;
+}
+
+#registration-form{
+    text-align: left;
+    background-color: rgb(242, 113, 113);
+    color: white;
+    width: 50%;
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+}
+#columns{
+    background-color: maroon;
+    color: white;
+
+}
+.rows{
+    background-color: rgb(242, 182, 182);
+}
